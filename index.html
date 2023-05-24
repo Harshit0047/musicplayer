@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Music Player</h1>
+  </header>
+
+  <div id="content">
+    <div id="file-input">
+      <input type="file" accept="audio/*" multiple>
+      <button onclick="addSongs()">Add Songs</button>
+    </div>
+    <ul id="song-list"></ul>
+  </div>
+
+  <div id="audio-container">
+    <audio id="audio-player" controls></audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
